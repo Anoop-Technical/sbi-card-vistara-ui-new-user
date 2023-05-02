@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBI Card New User </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <div class="main_wrapper">
+        <header>
+            <div class="container">
+                <div class="header">
+                    <img class="img-fluid sbi_logo" src="./images/sbi-logo.svg" alt="sbi-logo">
+                    <img class="img-fluid wishfin_logo" src="./images/wishfin_logo.svg" alt="wishfin-logo">
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 order-2 order-sm-2 order-md-2 order-lg-1">
+                    <div class="left_wrapper">
+                        <form action="" class="" id="basicDetails">
+                            <h5>Order your <strong>Credit Card Online</strong></h3>
+                            <div class="row">
+                                <div class="col-3 pe_0">
+                                    <div class="form-group">
+                                        <label for="titleName">Title</label>
+                                        <select name="titleName" id="titleName" class="form-control required" aria-required="true">
+                                            <option value=""></option>
+                                            <option value="mr">Mr</option>
+                                            <option value="mrs">Mrs</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-9 ps_0">
+                                    <div class="form-group">
+                                        <label for="fullName">Full Name</label>
+                                        <input name="fullName" type="text" id="fullName" class="form-control required" maxlength="50" value="" aria-required="true">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 pe_0">
+                                    <div class="form-group">
+                                        <label for="mobNo">Mobile No.</label>
+                                        <input name="mobNo" type="tel" id="mobNo" maxlength="10" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 ps_0">
+                                    <div class="form-group">
+                                        <label for="panCard">PAN Card</label>
+                                        <input name="panCard" type="text" id="panCard" maxlength="10" class="form-control text-uppercase required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 pe_0">
+                                    <div class="form-group">
+                                        <label for="emailId">Email ID</label>
+                                        <input name="emailId" type="text" id="emailId" maxlength="50" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 ps_0">
+                                    <div class="form-group">
+                                        <label for="dob">Date Of Birth</label>
+                                        <input name="dob" type="text" id="dob" readonly="" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label for="gender">Gender</label>
+                                        <div class="radio-btns">
+                                            <label class="radio-option">
+                                                <input type="radio" name="gender" id="gender" class="required" value="1" aria-required="true">
+                                                <i></i>
+                                                <span>Male</span>
+                                            </label>
+                                            <label class="radio-option">
+                                                <input type="radio" name="gender" class="required" value="0" aria-required="true">
+                                                <i></i>
+                                                <span>Female</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="form-group is-empty">
+                                        <label for="annualIncome">Annual Income</label> 
+                                        <input name="annualIncome" type="tel" id="annualIncome" maxlength="18" class="form-control NumericFormat required" value="" aria-required="true"> 
+                                        </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="form-group">
+                                        <label for="occupationType">Occupation Type</label>
+                                        <div class="radio-btns">
+                                            <label class="radio-option">
+                                                <input type="radio" name="occupationType" id="occupationType" class="required" value="1" aria-required="true">
+                                                <i></i>
+                                                <span>Salaried</span>
+                                            </label>
+                                            <label class="radio-option">
+                                                <input type="radio" name="occupationType" class="required" value="0" aria-required="true">
+                                                <i></i>
+                                                <span>Self Employed</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="form-group">
+                                        <div class="check-field">
+                                            <label class="check_show">
+                                                <input type="hidden" name="accept" value="0">
+                                                <input type="checkbox" name="accept" id="accept" checked
+                                                    class="terms-condition required" value="1"
+                                                    aria-required="true"> <i></i>
+                                                    I agree to terms & conditions.
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <button type="submit" class="continue_btn mx-auto">Continue</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 order-1 order-sm-1 order-md-1 order-lg-2">
+                    <div class="right_wrapper">
+                        <img class="img-fluid card_img" src="./images/sbicard.png" alt="sbicard">
+                        <div class="content_wrapper">
+                            <h2 class="travel_txt">FLY Easy with<span class="d-block">SBI Club Vistara Credit Card</span><img class="img-fluid" src="./images/aeroplan.png" alt="aeroplan"></h2>
+                            <p class="regis_mob_txt">Explore benefits of <strong>SBI Club Vistara Card</strong> & Make <span>your travel more convenient now!!</span> 
+                            </p>
+                        </div>
+                        <h5 class="card_benefints">Card Benefits</h5>
+                        <div class="features">
+                            <ul>
+                                <li><strong>Get 1 Complimentary Economy ticket</strong> every year on Renewal.</li>
+                                <li><strong>Earn 3 Club Vistara points</strong> per ₹200 on all your spends</li>
+                                <li>Enjoy <strong>4 complimentary visits</strong> per year to Domestic Airport Lounges*</li>
+                                <li>Up to <strong>3 Economy ticket vouchers</strong> & <strong>1 Hotel Voucher</strong> worth ₹ 5,000 on achieving milestone spends*</li>
+                                <li>Get <strong>1000 bonus CV Points</strong> on achieving milestones.*</li>
+                                <li>Complimentary Priority Pass membership for International Lounge access*</li>
+                                <li>Upto <strong>4 Flight cancellations</strong> per year*</li>
+                                <li>Lost Card liability cover upto <strong>₹ 1Lakh</strong></li>
+                                <li>Air Accident cover upto <strong>₹ 50 Lakhs</strong></li>
+                            </ul>
+                        </div>
+                        <div class="card_details">
+                            <div class="joining_fee">
+                                <div class="txt">Joining Fee</div>
+                                <div class="gst">₹ 1499+ GST</div>
+                            </div>
+                            <div class="annual_fee">
+                                <div class="txt">Renewal Fee</div>
+                                <div class="gst">₹ 1499+ GST</div>
+                                <span>(2nd year onwards)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/autoNumeric.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+</html>

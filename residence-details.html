@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBI Card Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/residence-details.css">
+</head>
+<body>
+    <div class="main_wrapper">
+        <header>
+            <div class="container">
+                <div class="header">
+                    <img class="img-fluid sbi_logo" src="./images/sbi-logo.svg" alt="sbi-logo">
+                    <img class="img-fluid wishfin_logo" src="./images/wishfin_logo.svg" alt="wishfin-logo">
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form_wrapper">
+                        <h3>Enter your few details to get your <span class="d-lg-block d-inline"><strong>SBI Club Vistara</strong> Credit Card</span></h3>
+                        <form action="" class="" id="residenceDetails">
+                            <h6>Residence details</h6>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="currentAddress1">Current Address Line1</label>
+                                        <input name="currentAddress1" type="text" id="currentAddress1" maxlength="50" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="currentAddress2">Current Address Line2</label>
+                                        <input name="currentAddress2" type="text" id="currentAddress2" maxlength="50" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="currentPincode">Current Pincode</label>
+                                        <input name="currentPincode" type="tel" id="currentPincode" maxlength="6" minlength="6" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="currentCity">Current City</label>
+                                        <select name="currentCity" id="currentCity" class="form-control required" aria-required="true">
+                                            <option value="">Please Select</option>
+                                            <option value="noida">Noida</option>
+                                            <option value="kanpur">Kanpur</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Professional details</h6>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="companyName">Company Name</label>
+                                        <input name="companyName" type="text" id="companyName" class="form-control required" maxlength="50" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="designation">Designation</label>
+                                        <input name="designation" type="text" id="designation" class="form-control required" maxlength="50" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="officeAddress1">Office Address1</label>
+                                        <input name="officeAddress1" type="text" id="officeAddress1" maxlength="50" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="officeAddress2">Office Address2</label>
+                                        <input name="officeAddress2" type="text" id="officeAddress2" maxlength="50" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="officePincode">Office Pincode</label>
+                                        <input name="officePincode" type="tel" id="officePincode" maxlength="6" minlength="6" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="officeCity">Office City</label>
+                                        <select name="officeCity" id="officeCity" class="form-control required" aria-required="true">
+                                            <option value="">Please Select</option>
+                                            <option value="noida">Noida</option>
+                                            <option value="kanpur">Kanpur</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="form-group">
+                                        <label for="emailId">Official Email ID</label>
+                                        <input name="emailId" type="text" id="emailId" maxlength="50" class="form-control required" value="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="form-group">
+                                        <div class="check-field">
+                                            <label class="check_show">
+                                                <input type="hidden" name="accept" value="0">
+                                                <input type="checkbox" name="accept" id="accept" checked
+                                                    class="terms-condition required" value="1"
+                                                    aria-required="true"> <i></i>
+                                                    I also agree with MMPL Privacy Policy & Terms and Conditions.
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb-5">
+                                    <button type="submit" class="continue_btn submit_btn">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/autoNumeric.js"></script>
+    <script src="./js/residence-details.js"></script>
+</body>
+</html>

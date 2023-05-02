@@ -1,0 +1,233 @@
+body {
+  background-image: linear-gradient(#0095d9 600px, #fff 600px);
+  background-repeat: no-repeat;
+}
+.main_wrapper {
+  background: url(../images/clouds-bg.png);
+  background-repeat: repeat-x;
+  background-size: auto 400px;
+  background-position: 100% 400px;
+}
+.right_wrapper {
+  margin-top: 35px;
+  padding-left: 30px;
+}
+.left_wrapper {
+  padding: 40px 30px 51px;
+  gap: 27px;
+  width: 100%;
+  min-height: 702px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px #ebf2f5;
+}
+.left_wrapper h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0062a8;
+  margin-bottom: 30px;
+}
+.card_benefints {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+  color: #0062a8;
+}
+.features ul li {
+  position: relative;
+  list-style: none;
+  font-size: 13px;
+  line-height: 28px;
+  color: #000000;
+}
+.features ul li::before {
+  content: url(../images/ul-check.png);
+  position: absolute;
+  left: -30px;
+  top: 5px;
+}
+.content_wrapper {
+  margin: 30px 0 175px 0;
+}
+.travel_txt {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 46px;
+  color: #ffffff;
+  position: relative;
+}
+.travel_txt span {
+  font-size: 30px;
+}
+.travel_txt img {
+  position: absolute;
+  bottom: -145px;
+  right: 15px;
+  width: 190px;
+}
+.regis_mob_txt {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.card_details {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  max-width: 482px;
+  width: 100%;
+  height: auto;
+  background: #edf4f4;
+  border: 1px solid #acdddc;
+  padding: 15px 20px;
+  margin: 30px 0 50px 0;
+}
+.card_details .txt {
+  font-size: 13px;
+  line-height: 16px;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+.card_details .gst {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #0f1a2a;
+}
+.annual_fee {
+  margin-left: 130px;
+}
+.annual_fee span {
+  font-size: 12px;
+  line-height: 18px;
+}
+.pe_0 {
+  padding-right: 0px;
+}
+.ps_0 {
+  padding-right: 0px;
+}
+p.regis_mob_txt span {
+  display: block;
+}
+@media screen and (min-width: 1440px) {
+  .travel_txt img {
+    bottom: -78px;
+    right: 105px;
+  }
+  .content_wrapper {
+    margin: 15px 0 150px 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .travel_txt img {
+    bottom: -85px;
+    right: -108px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .left_wrapper {
+    margin-top: 0px;
+  }
+  .card_details {
+    margin: 20px 0 0px 0;
+  }
+  .travel_txt img {
+    right: 55px;
+  }
+  .content_wrapper {
+    margin: 30px 0 100px 0;
+  }
+  .main_wrapper {
+    background-position: 100% 340px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .content_wrapper {
+    text-align: center;
+  }
+  .right_wrapper .card_img {
+    display: block;
+    margin: auto;
+  }
+  .travel_txt img {
+    bottom: -110px;
+    right: -145px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .main_wrapper {
+    background: url(../images/clouds-bg-mob.svg);
+    background-repeat: repeat-x;
+    background-size: auto 350px;
+    background-position: 100% 275px;
+  }
+  .right_wrapper .card_img {
+    width: 150px;
+  }
+  .travel_txt {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .regis_mob_txt {
+    font-size: 14px;
+  }
+  .travel_txt img {
+    bottom: -165px;
+    right: -115px;
+    width: 200px;
+  }
+  .right_wrapper {
+    margin-top: 45px;
+    padding-left: 0;
+  }
+  .card_details .txt {
+    font-size: 12px;
+  }
+  .card_details .gst {
+    font-size: 15px;
+  }
+  .joining_fee {
+    width: 50%;
+  }
+  .annual_fee {
+    margin-left: 0;
+  }
+  .content_wrapper {
+    margin: 15px 0 95px 0;
+  }
+  .left_wrapper {
+    padding: 40px 10px 50px;
+  }
+  .travel_txt span {
+    font-size: 18px;
+  }
+  .regis_mob_txt {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .card_benefints {
+    font-size: 16px;
+  }
+  .features ul li {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .features ul li::before {
+    top: 3px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .right_wrapper .card_img {
+    width: 130px;
+  }
+  .travel_txt img {
+    bottom: -155px;
+    right: -140px;
+  }
+  .card_details {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.thanks_wrapper {
+  max-width: 594px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px -1px 31px #e5eef9;
+  border-radius: 20px;
+  padding: 12px;
+  margin: 85px auto;
+}
+.dashed {
+  max-width: 569px;
+  width: 100%;
+  height: auto;
+  border: 1px dashed #0095d9;
+  border-radius: 15px;
+  text-align: center;
+  padding: 60px 12px;
+}
+.dashed img {
+  margin: 25px 0;
+}
+.dashed h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  color: #114980;
+}
+.dashed p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.0048em;
+  color: #27364b;
+}
+@media screen and (max-width: 575.98px) {
+  .dashed h5 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  .dashed p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
